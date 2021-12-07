@@ -33,12 +33,13 @@ body {
   flex-basis: 40%;
   font-size: 75%;
 }
-.menu :hover {
+.menu li:hover {
   background-color: rgba(69, 161, 50, 0.6);
   border-radius: 20px;
-  padding: 0 5%;
   color: aliceblue;
+  cursor: pointer;
 }
+
 .menu li {
   text-decoration: none;
   display: inline-block;
@@ -46,7 +47,6 @@ body {
 }
 .menu li a {
   text-decoration: none;
-  font-family: iranSans;
 }
 
 .btn {
@@ -66,12 +66,49 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(102, 99, 99);
 }
 
 .middle1 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.high {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40%;
+}
+
+.imgDiv1 {
+  background-image: url("../pic/coins.png");
+  background-color: #ffca1d;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  width: 100px;
+  height: 100px;
+}
+.imgDiv2 {
+  background-image: url("../pic/multipleUsers.png");
+  background-color: #ffca1d;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  width: 100px;
+  height: 100px;
+}
+.imgDiv3 {
+  background-image: url("../pic/leaf.png");
+  background-color: #ffca1d;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  width: 100px;
+  height: 100px;
 }
 
 .icons {
@@ -80,36 +117,33 @@ body {
   align-items: center;
   background-color: rgb(242, 242, 242);
   color: #45a132;
-
 }
 
 .icons1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  cursor: pointer;
 }
 
-.imgDiv{
-  background-color: #ffca1d;
-  border-radius: 50%;
-  padding: 10%;
-  width: fit-content;
-  height: auto;
-  margin:0 10%;
-  align-items: center;
-}
-
-.icons1 div{
+.icons1 div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255, 255, 255);
   margin: 2%;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 1px 4px grey;
-  padding:10%;
-
+  padding: 10%;
 }
- .icons1 div:hover{
-   border-bottom: #45a132 10px solid;
- }
+.icons1 div:hover {
+  border-bottom: #45a132 10px solid;
+}
 
+.icons1 img {
+  width: 100%;
+}
+p {
+  text-align: center;
+}
