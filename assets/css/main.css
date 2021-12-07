@@ -1,7 +1,7 @@
 @font-face {
     font-family: iranSans;
-    src: url(assets/font/IRANSansWeb.ttf),
-    url(assets/font/IRANSansWeb.woff)
+    src: url('../font/IRANSansWeb.ttf') format('truetyppe'),
+    url('../font/IRANSansWeb.woff') format('woff')
 }
 body{
     font-family: iranSans;
