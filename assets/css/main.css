@@ -23,15 +23,16 @@ body {
 .navBar img {
   width: 5%;
   height: 5%;
-  flex-basis: 10%;
+  flex-basis: 9%;
 }
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 30%;
-  flex-basis: 40%;
+  margin-left: 40%;
+  flex-basis: 30%;
   font-size: 75%;
+  color: gray;
 }
 .menu li:hover {
   background-color: rgba(69, 161, 50, 0.6);
@@ -42,8 +43,8 @@ body {
 
 .menu li {
   text-decoration: none;
-  display: inline-block;
-  padding: 0 5%;
+  display: flex;
+  padding: 0 3%;
 }
 .menu li a {
   text-decoration: none;
@@ -53,12 +54,11 @@ body {
   border-radius: 20px;
   background-color: #45a132;
   text-decoration: none;
-  font-size: 85%;
+  font-size: 0.7em;
   color: aliceblue;
-  width: fit-content;
-  padding: 0 3%;
-  display: flex;
-  align-items: center;
+  height: fit-content;
+  padding: 0.5% 3%;
+  margin-top: 1%;
   box-shadow: 1px 1px 4px grey;
 }
 
@@ -77,7 +77,7 @@ body {
 .high {
   display: flex;
   flex-direction: column;
-  padding: 0 40%;
+  margin: 0 40%;
 }
 
 .imgDiv1 {
@@ -123,6 +123,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 80%;
   cursor: pointer;
 }
 
@@ -132,17 +133,18 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  margin: 2%;
+  margin: 1%;
   border-radius: 10px;
   box-shadow: 1px 1px 4px grey;
-  padding: 10%;
+  padding: 2% 5%;
+  font-size: 0.9em;
 }
 .icons1 div:hover {
   border-bottom: #45a132 10px solid;
 }
 
 .icons1 img {
-  width: 100%;
+  width: 50%;
 }
 p {
   text-align: center;
