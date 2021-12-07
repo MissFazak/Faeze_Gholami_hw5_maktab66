@@ -1,3 +1,12 @@
+@font-face {
+    font-family: iranSans;
+    src: url(assets/font/IRANSansWeb.ttf),
+    url(assets/font/IRANSansWeb.woff)
+}
+body{
+    font-family: iranSans;
+}
+
 .allObj {
   display: flex;
   flex-direction: column;
@@ -24,6 +33,7 @@
 }
 .menu li a {
   text-decoration: none;
+  font-family: iranSans;
 }
 .menu input {
   display: flex;
