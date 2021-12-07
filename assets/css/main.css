@@ -1,10 +1,11 @@
 @font-face {
-    font-family: iranSans;
-    src: url('../font/IRANSansWeb.ttf') format('truetyppe'),
-    url('../font/IRANSansWeb.woff') format('woff')
+  font-family: iranSans;
+  src: url("../font/IRANSansWeb.ttf") format("truetyppe"),
+    url("../font/IRANSansWeb.woff") format("woff");
 }
-body{
-    font-family: iranSans;
+body {
+  font-family: iranSans;
+  margin: 0;
 }
 
 .allObj {
@@ -15,6 +16,9 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-top: 13px solid #45a132;
+  box-shadow: 1px 1px 2px grey;
+  padding: 1% 10%;
 }
 .navBar img {
   width: 5%;
@@ -24,43 +28,88 @@ body{
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-basis: 30%;
+  justify-content: space-between;
+  margin-left: 30%;
+  flex-basis: 40%;
+  font-size: 75%;
+}
+.menu :hover {
+  background-color: rgba(69, 161, 50, 0.6);
+  border-radius: 20px;
+  padding: 0 5%;
+  color: aliceblue;
 }
 .menu li {
   text-decoration: none;
   display: inline-block;
+  padding: 0 5%;
 }
 .menu li a {
   text-decoration: none;
   font-family: iranSans;
 }
-.menu input {
+
+.btn {
+  border-radius: 20px;
+  background-color: #45a132;
+  text-decoration: none;
+  font-size: 85%;
+  color: aliceblue;
+  width: fit-content;
+  padding: 0 3%;
   display: flex;
-  flex-basis: 20%;
+  align-items: center;
+  box-shadow: 1px 1px 4px grey;
 }
 
-.middle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.middle1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.middle1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.icons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  color: #45a132;
+
 }
 
-.icons1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.icons1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+.imgDiv{
+  background-color: #ffca1d;
+  border-radius: 50%;
+  padding: 10%;
+  width: fit-content;
+  height: auto;
+  margin:0 10%;
+  align-items: center;
+}
+
+.icons1 div{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin: 2%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px grey;
+  padding:10%;
+
+}
+ .icons1 div:hover{
+   border-bottom: #45a132 10px solid;
+ }
 
